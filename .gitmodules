@@ -4,3 +4,6 @@
 [submodule "submodules/vim-colors-solarized"]
 	path = submodules/vim-colors-solarized
 	url = git@github.com:altercation/vim-colors-solarized
+[submodule "dotfiles/vim/bundle/minibufexpl.vim"]
+	path = dotfiles/vim/bundle/minibufexpl.vim
+	url = git@github.com:fholgado/minibufexpl.vim.git

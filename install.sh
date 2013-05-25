@@ -2,8 +2,8 @@
 set -e
 
 IN_FILES="`pwd`/dotfiles/*"
-#INSTALL_DIR="$HOME"
-INSTALL_DIR="/home/dev/projects/dotfiles/tst"
+INSTALL_DIR="$HOME"
+#INSTALL_DIR="/home/dev/projects/dotfiles/tst"
 BACKUP_EXT=".backup"
 
 for f_src in `find $IN_FILES -maxdepth 0`

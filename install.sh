@@ -1,10 +1,15 @@
 #!/bin/bash
 set -e
 
+git submodule update --init
+
 IN_FILES="`pwd`/dotfiles/*"
 INSTALL_DIR="$HOME"
 #INSTALL_DIR="/home/dev/projects/dotfiles/tst"
 BACKUP_EXT=".backup"
+
+# move these into separate scripts
+cp -f submodules/vim-pathogen/autoload/pathogen.vim dotfiles/vim/autoload/
 
 for f_src in `find $IN_FILES -maxdepth 0`
 do

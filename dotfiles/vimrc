@@ -31,6 +31,11 @@ set fileencoding=utf-8
 set autowrite
 :colorscheme peachpuff
 
+set foldmethod=marker
+set foldnestmax=10
+set foldenable
+set foldlevel=0
+
 set statusline=%<%f%h%m%r\ %b\ %{&encoding}\ \ %l,%c%V\ %P
 
 let g:miniBufExplModSelTarget = 1

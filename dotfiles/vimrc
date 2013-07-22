@@ -24,8 +24,6 @@ set tabstop=4
 set laststatus=2
 set guifont=Andale\ Mono\ 12
 set guioptions-=T
-":runtime /usr/share/vim/vim62/plugin/taglist.vim
-"set Tlist_Ctags_Cmd /usr/bin/ctags
 set encoding=utf-8
 set fileencoding=utf-8
 set autowrite
@@ -63,6 +61,7 @@ let g:ycm_add_preview_to_completeopt = 0
 let g:ycm_autoclose_preview_window_after_completion = 1
 let g:ycm_key_invoke_completion = '<C-Space>'
 set completeopt-=preview
-
+map <F6> :YcmDiags<cr>
+map <F7> :lclose<cr>
 
 autocmd BufRead *.as set filetype=actionscript

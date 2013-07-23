@@ -2,7 +2,7 @@
 set -e
 
 git submodule foreach git pull origin master
-git submodule update --init --recursive
+#git submodule update --init --recursive
 
 IN_FILES="`pwd`/dotfiles/*"
 INSTALL_DIR="$HOME"

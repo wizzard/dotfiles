@@ -64,4 +64,7 @@ set completeopt-=preview
 map <F6> :YcmDiags<cr>
 map <F7> :lclose<cr>
 
+" fswitch-mappings
+map <F3> :FSHere<cr>
+
 autocmd BufRead *.as set filetype=actionscript

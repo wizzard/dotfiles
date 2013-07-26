@@ -10,9 +10,6 @@
 [submodule "submodules/gtk-vim-syntax"]
 	path = submodules/gtk-vim-syntax
 	url = git@github.com:vim-scripts/gtk-vim-syntax.git
-[submodule "submodules/vim-fugitive"]
-	path = submodules/vim-fugitive
-	url = git@github.com:tpope/vim-fugitive.git
 [submodule "dotfiles/vim/bundle/vim-fugitive"]
 	path = dotfiles/vim/bundle/vim-fugitive
 	url = git@github.com:tpope/vim-fugitive.git

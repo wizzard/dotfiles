@@ -22,3 +22,6 @@
 [submodule "dotfiles/vim/bundle/vim-airline"]
 	path = dotfiles/vim/bundle/vim-airline
 	url = git@github.com:bling/vim-airline.git
+[submodule "dotfiles/vim/bundle/AnsiEsc"]
+	path = dotfiles/vim/bundle/AnsiEsc
+	url = git@github.com:vim-scripts/AnsiEsc.vim.git

@@ -2,13 +2,17 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-export PATH=/home/dev/work/bin:/home/dev/work/gems/bin:/home/dev/flash/bin:/home/dev/flash/player:$PATH:/home/dev/android/android-ndk-r8e:/home/dev/android/sdk/platform-tools:/home/dev/android/sdk/tools:/home/dev/soft/cov-analysis/bin
+export PATH=/home/dev/work/bin:/home/dev/work/gems/bin:/home/dev/flash/bin:/home/dev/flash/player:$PATH:/home/dev/android/android-ndk-r8e:/home/dev/android/sdk/platform-tools:/home/dev/android/sdk/tools:/home/dev/soft/cov-analysis/bin:/home/dev/svn/go/bin
 export LD_LIBRARY_PATH=//home/dev/work/lib
 export PKG_CONFIG_PATH=/home/dev/work/lib/pkgconfig/
 export "DISPLAY=:0.0"
 ulimit -c unlimited
 export HISTCONTROL=ignoredups
 export GEM_HOME=/home/dev/work/gems
+#export GOROOT=/home/dev/go
+export GOPATH=/home/dev/go
+export GOARCH=amd64
+export GOOS=linux
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
